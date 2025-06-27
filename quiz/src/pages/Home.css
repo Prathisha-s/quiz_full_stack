@@ -1,0 +1,83 @@
+.text-section {
+  text-align: left;
+  color: #333;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff3366;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.subtitle h3 {
+  color: #333;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.subtitle p {
+  margin-bottom: 0.7rem;
+}
+/* Fade-in effect for the text and mascot */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.greeting {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #4a148c;
+  font-weight: bold;
+}
+
+.username-highlight {
+  color: #d81b60;
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0) scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-greet {
+  animation: popIn 0.8s ease-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a148c;
+  margin-bottom: 1rem;
+}
+
+.username-highlight {
+  color: #2e7d32;
+  font-weight: bold;
+}
+

@@ -1,0 +1,90 @@
+.score-container {
+  display: flex;
+  background-color: #fffaf0;
+  min-height: 80vh;
+  box-sizing: border-box;
+  position: relative;
+  padding: 2rem;
+}
+
+.score-exit {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.score-exit img {
+  width: 32px;
+}
+
+/* Left content block */
+.score-left {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+.score-title {
+  font-size: 2rem;
+  color: #512da8;
+  margin-bottom: 1rem;
+}
+
+.score-result {
+  font-size: 1.4rem;
+  color: #2e7d32;
+  margin-bottom: 2rem;
+}
+
+.score-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.score-buttons .text-btn {
+  background-color: #512da8;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.score-buttons .text-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Right animation container */
+.score-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-animation {
+  max-width: 100%;
+  max-height: 300px;
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Optional floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.score-animation {
+  max-width: 100%;
+  max-height: 300px;
+  animation: float 2s ease-in-out infinite;
+}

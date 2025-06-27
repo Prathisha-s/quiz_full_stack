@@ -1,0 +1,205 @@
+.container {
+  position: relative;
+  height: 100vh;
+  background-color: #fefaf3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.content-box {
+  position: relative;
+  height: 80vh;
+  width: 90%;
+  max-width: 1000px;
+  border: 10px solid #f7d845;
+  border-radius: 20px;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.pencil {
+  width: 300px;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.text-section {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #000;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #7e57c2;
+  margin-top: 1rem;
+}
+
+.smiley {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 80px;
+  z-index: 1;
+}
+
+.start-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.start-btn img {
+  width: 50px;
+}
+
+/* ✅ Corrected auth buttons */
+.auth-buttons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 3;
+  display: flex;
+  gap: 1rem;
+}
+
+.text-btn {
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-btn:hover {
+  background-color: #4e0aaf;
+}
+
+/* ✅ Responsive fix */
+@media (max-width: 768px) {
+  .pencil {
+    width: 250px;
+  }
+}
+.start-btn img {
+  width: 50px;
+  height: 50px;
+  animation: bounce 1.2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+/* Slide-in animation for mascot and smiley */
+.pencil {
+  animation: slideInRight 0.8s ease-out;
+}
+
+.smiley {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Mascot animation */
+.pencil {
+  animation: mascotSlideFade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+@keyframes mascotSlideFade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Smiley animation */
+.smiley {
+  animation: smileySlideFade 1.2s ease-out forwards;
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+@keyframes smileySlideFade {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Start button animation */
+.start-btn img {
+  width: 50px;
+  height: 50px;
+  animation: pulseBounce 1.2s infinite;
+  transition: transform 0.3s ease;
+}
+
+@keyframes pulseBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.05);
+  }
+}
+
+/* Text fade-in staggered */
+.text-section {
+  animation: fadeText 1.2s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeText {
+  to {
+    opacity: 1;
+  }
+}

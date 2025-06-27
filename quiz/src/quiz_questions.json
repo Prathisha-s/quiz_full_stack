@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What color is the sky on a clear day?",
+    "options": [
+      "green",
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "answer": "blue"
+  },
+  {
+    "question": "Which animal says 'meow'?",
+    "options": [
+      "dog",
+      "cat",
+      "cow",
+      "sheep"
+    ],
+    "answer": "cat"
+  },
+  {
+    "question": "How many legs does a spider have?",
+    "options": [
+      "6",
+      "8",
+      "4",
+      "2"
+    ],
+    "answer": "8"
+  },
+  {
+    "question": "Which fruit is red and has seeds on the outside?",
+    "options": [
+      "banana",
+      "apple",
+      "strawberry",
+      "grape"
+    ],
+    "answer": "strawberry"
+  },
+  {
+    "question": "What do you use to write on a blackboard?",
+    "options": [
+      "chalk",
+      "pen",
+      "crayon",
+      "marker"
+    ],
+    "answer": "chalk"
+  },
+  {
+    "question": "How many days are there in a week?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "What color are school buses usually?",
+    "options": [
+      "red",
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "answer": "yellow"
+  },
+  {
+    "question": "Which shape has 3 sides?",
+    "options": [
+      "square",
+      "circle",
+      "triangle",
+      "rectangle"
+    ],
+    "answer": "triangle"
+  },
+  {
+    "question": "What do bees make?",
+    "options": [
+      "milk",
+      "honey",
+      "cheese",
+      "butter"
+    ],
+    "answer": "honey"
+  },
+  {
+    "question": "Which planet do we live on?",
+    "options": [
+      "Mars",
+      "Earth",
+      "Jupiter",
+      "Saturn"
+    ],
+    "answer": "Earth"
+  },
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": [
+      "Elephant",
+      "Tiger",
+      "Lion",
+      "Giraffe"
+    ],
+    "answer": "Lion"
+  },
+  {
+    "question": "What color are bananas?",
+    "options": [
+      "Blue",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "answer": "Yellow"
+  },
+  {
+    "question": "Which month has Halloween?",
+    "options": [
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "answer": "October"
+  },
+  {
+    "question": "Which shape is round?",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Circle",
+      "Triangle"
+    ],
+    "answer": "Circle"
+  },
+  {
+    "question": "How many wheels does a bicycle have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Which animal has a long trunk?",
+    "options": [
+      "Elephant",
+      "Cow",
+      "Dog",
+      "Horse"
+    ],
+    "answer": "Elephant"
+  },
+  {
+    "question": "Which of these can fly?",
+    "options": [
+      "Fish",
+      "Bird",
+      "Cat",
+      "Lion"
+    ],
+    "answer": "Bird"
+  },
+  {
+    "question": "Which fruit is green on the outside and red inside?",
+    "options": [
+      "Apple",
+      "Banana",
+      "Watermelon",
+      "Grapes"
+    ],
+    "answer": "Watermelon"
+  },
+  {
+    "question": "Which vehicle travels in the sky?",
+    "options": [
+      "Bus",
+      "Train",
+      "Airplane",
+      "Car"
+    ],
+    "answer": "Airplane"
+  },
+  {
+    "question": "How many fingers do you have on one hand?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "What do you wear on your feet?",
+    "options": [
+      "Gloves",
+      "Shoes",
+      "Hat",
+      "Scarf"
+    ],
+    "answer": "Shoes"
+  },
+  {
+    "question": "What do you use to eat soup?",
+    "options": [
+      "Fork",
+      "Knife",
+      "Spoon",
+      "Plate"
+    ],
+    "answer": "Spoon"
+  },
+  {
+    "question": "Which of these is a color?",
+    "options": [
+      "Blue",
+      "Jump",
+      "Dance",
+      "Book"
+    ],
+    "answer": "Blue"
+  },
+  {
+    "question": "What do you drink when you're thirsty?",
+    "options": [
+      "Water",
+      "Paper",
+      "Socks",
+      "Chair"
+    ],
+    "answer": "Water"
+  },
+  {
+    "question": "What is the opposite of hot?",
+    "options": [
+      "Cold",
+      "Warm",
+      "Boiling",
+      "Spicy"
+    ],
+    "answer": "Cold"
+  },
+  {
+    "question": "Which animal barks?",
+    "options": [
+      "Cat",
+      "Dog",
+      "Horse",
+      "Sheep"
+    ],
+    "answer": "Dog"
+  },
+  {
+    "question": "What color is grass?",
+    "options": [
+      "Green",
+      "Pink",
+      "Blue",
+      "Orange"
+    ],
+    "answer": "Green"
+  },
+  {
+    "question": "What is 2 + 2?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "What do you see with?",
+    "options": [
+      "Nose",
+      "Eyes",
+      "Ears",
+      "Hands"
+    ],
+    "answer": "Eyes"
+  },
+  {
+    "question": "Which animal has stripes?",
+    "options": [
+      "Zebra",
+      "Monkey",
+      "Elephant",
+      "Pig"
+    ],
+    "answer": "Zebra"
+  },
+  {
+    "question": "What do you use to brush your teeth?",
+    "options": [
+      "Spoon",
+      "Toothbrush",
+      "Comb",
+      "Soap"
+    ],
+    "answer": "Toothbrush"
+  },
+  {
+    "question": "Which animal goes 'moo'?",
+    "options": [
+      "Cat",
+      "Cow",
+      "Dog",
+      "Goat"
+    ],
+    "answer": "Cow"
+  },
+  {
+    "question": "What do you wear on your head to stay warm?",
+    "options": [
+      "Shoes",
+      "Hat",
+      "Gloves",
+      "Shirt"
+    ],
+    "answer": "Hat"
+  },
+  {
+    "question": "How many legs does a cat have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "What do you need to cut paper?",
+    "options": [
+      "Glue",
+      "Pencil",
+      "Scissors",
+      "Eraser"
+    ],
+    "answer": "Scissors"
+  },
+  {
+    "question": "Where does the sun set?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "answer": "West"
+  },
+  {
+    "question": "Which season comes after spring?",
+    "options": [
+      "Winter",
+      "Fall",
+      "Summer",
+      "Rainy"
+    ],
+    "answer": "Summer"
+  },
+  {
+    "question": "What is the name of Mickey Mouse's dog?",
+    "options": [
+      "Goofy",
+      "Donald",
+      "Pluto",
+      "Tom"
+    ],
+    "answer": "Pluto"
+  },
+  {
+    "question": "What color is an apple usually?",
+    "options": [
+      "Purple",
+      "Red",
+      "Black",
+      "Blue"
+    ],
+    "answer": "Red"
+  },
+  {
+    "question": "Which animal has a shell?",
+    "options": [
+      "Frog",
+      "Turtle",
+      "Rabbit",
+      "Dog"
+    ],
+    "answer": "Turtle"
+  },
+  {
+    "question": "Which one is a fruit?",
+    "options": [
+      "Carrot",
+      "Potato",
+      "Apple",
+      "Lettuce"
+    ],
+    "answer": "Apple"
+  },
+  {
+    "question": "What is the name of the fairy in Peter Pan?",
+    "options": [
+      "Cinderella",
+      "Tinker Bell",
+      "Elsa",
+      "Belle"
+    ],
+    "answer": "Tinker Bell"
+  },
+  {
+    "question": "How many hours are in a day?",
+    "options": [
+      "12",
+      "18",
+      "24",
+      "36"
+    ],
+    "answer": "24"
+  },
+  {
+    "question": "What color is a stop sign?",
+    "options": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "answer": "Red"
+  },
+  {
+    "question": "What do caterpillars turn into?",
+    "options": [
+      "Worms",
+      "Spiders",
+      "Butterflies",
+      "Flies"
+    ],
+    "answer": "Butterflies"
+  },
+  {
+    "question": "Where do fish live?",
+    "options": [
+      "Air",
+      "Water",
+      "Trees",
+      "Mountains"
+    ],
+    "answer": "Water"
+  },
+  {
+    "question": "Which is the tallest animal?",
+    "options": [
+      "Cat",
+      "Elephant",
+      "Giraffe",
+      "Bear"
+    ],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "What color are leaves in autumn?",
+    "options": [
+      "Pink",
+      "Brown",
+      "Blue",
+      "Black"
+    ],
+    "answer": "Brown"
+  },
+  {
+    "question": "Which of these is used to see tiny things?",
+    "options": [
+      "Microscope",
+      "Telescope",
+      "Binoculars",
+      "Periscope"
+    ],
+    "answer": "Microscope"
+  },
+  {
+    "question": "What do you use to drink soup?",
+    "options": [
+      "Fork",
+      "Spoon",
+      "Knife",
+      "Stick"
+    ],
+    "answer": "Spoon"
+  },
+  {
+    "question": "Which planet is closest to the sun?",
+    "options": [
+      "Earth",
+      "Venus",
+      "Mars",
+      "Mercury"
+    ],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What do you hear with?",
+    "options": [
+      "Eyes",
+      "Mouth",
+      "Ears",
+      "Hands"
+    ],
+    "answer": "Ears"
+  },
+  {
+    "question": "What do chickens lay?",
+    "options": [
+      "Eggs",
+      "Milk",
+      "Seeds",
+      "Wool"
+    ],
+    "answer": "Eggs"
+  },
+  {
+    "question": "What is the shape of a coin?",
+    "options": [
+      "Square",
+      "Triangle",
+      "Circle",
+      "Rectangle"
+    ],
+    "answer": "Circle"
+  },
+  {
+    "question": "What is the first day of the week?",
+    "options": [
+      "Friday",
+      "Monday",
+      "Sunday",
+      "Wednesday"
+    ],
+    "answer": "Sunday"
+  },
+  {
+    "question": "Which number comes after 9?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "8"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "What color are strawberries?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "answer": "Red"
+  },
+  {
+    "question": "What do you use to write?",
+    "options": [
+      "Eraser",
+      "Pencil",
+      "Marker",
+      "Both pencil and marker"
+    ],
+    "answer": "Both pencil and marker"
+  },
+  {
+    "question": "What do you wear to see better?",
+    "options": [
+      "Glasses",
+      "Hat",
+      "Shoes",
+      "Ring"
+    ],
+    "answer": "Glasses"
+  },
+  {
+    "question": "Which animal lives in the ocean?",
+    "options": [
+      "Dog",
+      "Shark",
+      "Cat",
+      "Tiger"
+    ],
+    "answer": "Shark"
+  }
+]
